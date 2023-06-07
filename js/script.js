@@ -8,7 +8,7 @@ function switchAdvantages() {
       advantages[current].style.display = 'none';
       current = (current + 1) % advantages.length;
       advantages[current].style.display = 'grid';
-    }, 2000);
+    }, 5000);
   } else {
     for (let i = 0; i < advantages.length; i++) {
       advantages[i].style.display = 'grid';

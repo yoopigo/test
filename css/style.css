@@ -593,6 +593,8 @@ img {
 
 .bestsellers-img {
   position: relative;
+  width: 215px;
+  height: 215px;
 }
 
 @media (max-width: 375px) {

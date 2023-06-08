@@ -10,6 +10,8 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preload" href="fonts/SFUIDisplay-Regular.woff" as="font" />
     <link rel="preload" href="fonts/SFUIDisplay-Regular.woff2" as="font" />
+    <link rel="preload" href="fonts/SFUIDisplay-Medium.woff" as="font" />
+    <link rel="preload" href="fonts/SFUIDisplay-Medium.woff2" as="font" />
     <title>test</title>
   </head>
 
@@ -51,6 +53,7 @@
             <li>
               <a class="good good-one" href="">
                 <img
+                  alt=""
                   class="good-img"
                   src="img/catalog/good-1.png"
                   srcset="img/catalog/good-1@2x.png 2x"
@@ -63,6 +66,7 @@
             <li>
               <a class="good" href="">
                 <img
+                  alt=""
                   class="good-img"
                   src="img/catalog/good-2.png"
                   srcset="img/catalog/good-2@2x.png 2x"
@@ -75,6 +79,7 @@
             <li>
               <a class="good" href="">
                 <img
+                  alt=""
                   class="good-img"
                   src="img/catalog/good-3.png"
                   srcset="img/catalog/good-3@2x.png 2x"
@@ -87,6 +92,7 @@
             <li>
               <a class="good" href="">
                 <img
+                  alt=""
                   class="good-img"
                   src="img/catalog/good-4.png"
                   srcset="img/catalog/good-4@2x.png 2x"
@@ -99,6 +105,7 @@
             <li>
               <a class="good" href="">
                 <img
+                  alt=""
                   class="good-img"
                   src="img/catalog/good-5.png"
                   srcset="img/catalog/good-5@2x.png 2x"
@@ -111,6 +118,7 @@
             <li>
               <a class="good" href="">
                 <img
+                  alt=""
                   class="good-img"
                   src="img/catalog/good-6.png"
                   srcset="img/catalog/good-6@2x.png 2x"
@@ -123,6 +131,7 @@
             <li>
               <a class="good" href="">
                 <img
+                  alt=""
                   class="good-img"
                   src="img/catalog/good-7.png"
                   srcset="img/catalog/good-7@2x.png 2x"
@@ -135,6 +144,7 @@
             <li>
               <a class="good" href="">
                 <img
+                  alt=""
                   class="good-img"
                   src="img/catalog/good-8.png"
                   srcset="img/catalog/good-8@2x.png 2x"
@@ -186,7 +196,13 @@
           <ul class="bestsellers-catalog">
             <li class="bestsellers-good">
               <div class="marks">
-                <img src="img/bestseller/sticker.svg" />
+                <img alt="" src="img/bestseller/sticker.svg" />
+              </div>
+              <div class="marks-mobile">
+                <img alt="" src="img/bestseller/sticker-mobile.svg" />
+              </div>
+              <div class="marks-youtube">
+                <img alt="" src="img/bestseller/youtube.svg" />
               </div>
               <img
                 class="bestsellers-img"
@@ -196,7 +212,53 @@
               />
               <a class="bestsellers-title">Смартфон Apple Iphone 8 64GB Gold</a>
               <div class="reviews">
-                <div class="reviews-grade"></div>
+                <div class="reviews-grade">
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                </div>
                 <a class="reviews-text">10 отзывов</a>
               </div>
               <div class="price">
@@ -206,11 +268,69 @@
               <p class="availability">В наличие</p>
               <div class="basket-panel">
                 <button class="basket">В корзину</button>
+                <div class="basket-mark">
+                  <svg
+                    class="favorite-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="20"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="M0 20V6h4v14H0Zm7 0V0h4v20H7Zm7 0v-8h4v8h-4Z"
+                    />
+                  </svg>
+                  <svg
+                    class="heart-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="18"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="m10 18-1.45-1.295C3.4 12.125 0 9.093 0 5.395 0 2.364 2.42 0 5.5 0 7.24 0 8.91.795 10 2.04A6.062 6.062 0 0 1 14.5 0C17.58 0 20 2.364 20 5.395c0 3.698-3.4 6.73-8.55 11.31L10 18Z"
+                    />
+                  </svg>
+                </div>
+                <div class="basket-mark-mobile">
+                  <svg
+                    class="favorite-icon-mobile"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="M6.382 16V4.8H9.58V16H6.382Zm6.42 0V0H16v16h-3.198ZM0 16V9.6h3.198V16H0Z"
+                    />
+                  </svg>
+                  <svg
+                    class="heart-icon-mobile"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="m8 15.2-1.16-1.036C2.72 10.5 0 8.074 0 5.116 0 2.691 1.936.8 4.4.8A4.85 4.85 0 0 1 8 2.432 4.85 4.85 0 0 1 11.6.8C14.064.8 16 2.691 16 5.116c0 2.959-2.72 5.383-6.84 9.048L8 15.2Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="buy-click-mobile">
+                <a class="buy-click-mobile-text">Купить в 1 клик</a>
               </div>
             </li>
             <li class="bestsellers-good">
               <div class="marks">
-                <img src="img/bestseller/sticker.svg" />
+                <img alt="" src="img/bestseller/sticker.svg" />
+              </div>
+              <div class="marks-mobile">
+                <img alt="" src="img/bestseller/sticker-mobile.svg" />
               </div>
               <img
                 class="bestsellers-img"
@@ -222,7 +342,53 @@
                 Смартфон Samsung Galaxy S8 64GB Black
               </a>
               <div class="reviews">
-                <div class="reviews-grade"></div>
+                <div class="reviews-grade">
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                </div>
                 <a class="reviews-text">12 отзывов</a>
               </div>
               <div class="price">
@@ -232,11 +398,68 @@
               <p class="availability">В наличие</p>
               <div class="basket-panel">
                 <button class="basket">В корзину</button>
+                <div class="basket-mark">
+                  <svg
+                    class="favorite-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="20"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="M0 20V6h4v14H0Zm7 0V0h4v20H7Zm7 0v-8h4v8h-4Z"
+                    />
+                  </svg>
+                  <svg
+                    class="heart-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="18"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="m10 18-1.45-1.295C3.4 12.125 0 9.093 0 5.395 0 2.364 2.42 0 5.5 0 7.24 0 8.91.795 10 2.04A6.062 6.062 0 0 1 14.5 0C17.58 0 20 2.364 20 5.395c0 3.698-3.4 6.73-8.55 11.31L10 18Z"
+                    />
+                  </svg>
+                </div>
+                <div class="basket-mark-mobile">
+                  <svg
+                    class="favorite-icon-mobile"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="M6.382 16V4.8H9.58V16H6.382Zm6.42 0V0H16v16h-3.198ZM0 16V9.6h3.198V16H0Z"
+                    />
+                  </svg>
+                  <svg
+                    class="heart-icon-mobile"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="m8 15.2-1.16-1.036C2.72 10.5 0 8.074 0 5.116 0 2.691 1.936.8 4.4.8A4.85 4.85 0 0 1 8 2.432 4.85 4.85 0 0 1 11.6.8C14.064.8 16 2.691 16 5.116c0 2.959-2.72 5.383-6.84 9.048L8 15.2Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="buy-click-mobile">
+                <a class="buy-click-mobile-text">Купить в 1 клик</a>
               </div>
             </li>
             <li class="bestsellers-good">
               <div class="marks">
-                <img src="img/bestseller/sticker.svg" />
+                <img alt="" src="img/bestseller/sticker.svg" />
+              </div>
+              <div class="marks-mobile">
+                <img alt="" src="img/bestseller/sticker-mobile.svg" />
               </div>
               <img
                 class="bestsellers-img"
@@ -246,7 +469,53 @@
               />
               <a class="bestsellers-title">Смартфон Huawei Honor 9 64GB Blue</a>
               <div class="reviews">
-                <div class="reviews-grade"></div>
+                <div class="reviews-grade">
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                </div>
                 <a class="reviews-text">8 отзывов</a>
               </div>
               <div class="price">
@@ -256,11 +525,69 @@
               <p class="availability">В наличие</p>
               <div class="basket-panel">
                 <button class="basket">В корзину</button>
+                <div class="basket-mark">
+                  <svg
+                    class="favorite-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="20"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="M0 20V6h4v14H0Zm7 0V0h4v20H7Zm7 0v-8h4v8h-4Z"
+                    />
+                  </svg>
+                  <svg
+                    class="heart-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="18"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="m10 18-1.45-1.295C3.4 12.125 0 9.093 0 5.395 0 2.364 2.42 0 5.5 0 7.24 0 8.91.795 10 2.04A6.062 6.062 0 0 1 14.5 0C17.58 0 20 2.364 20 5.395c0 3.698-3.4 6.73-8.55 11.31L10 18Z"
+                    />
+                  </svg>
+                </div>
+                <div class="basket-mark-mobile">
+                  <svg
+                    class="favorite-icon-mobile"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="M6.382 16V4.8H9.58V16H6.382Zm6.42 0V0H16v16h-3.198ZM0 16V9.6h3.198V16H0Z"
+                    />
+                  </svg>
+                  <svg
+                    class="heart-icon-mobile"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="m8 15.2-1.16-1.036C2.72 10.5 0 8.074 0 5.116 0 2.691 1.936.8 4.4.8A4.85 4.85 0 0 1 8 2.432 4.85 4.85 0 0 1 11.6.8C14.064.8 16 2.691 16 5.116c0 2.959-2.72 5.383-6.84 9.048L8 15.2Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="buy-click-mobile">
+                <a class="buy-click-mobile-text">Купить в 1 клик</a>
               </div>
             </li>
             <li class="bestsellers-good">
               <div class="marks">
-                <img src="img/bestseller/sticker.svg" />
+                <img alt="" src="img/bestseller/sticker.svg" />
+              </div>
+              <div class="marks-mobile">
+                <img alt="" src="img/bestseller/sticker-mobile.svg" />
               </div>
               <img
                 class="bestsellers-img"
@@ -272,7 +599,53 @@
                 Смартфон ASUS ZenFone 4 Max ZC554KL 16GB Black
               </a>
               <div class="reviews">
-                <div class="reviews-grade"></div>
+                <div class="reviews-grade">
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 26.9 26.9"
+                  >
+                    <polygon
+                      points="13.5 0 16.5 9.2 26.9 10.3 19.7 16.8 21.5 26.9 13.5 22.2 5.5 26.9 7.2 16.8 0 10.3 10.4 9.2"
+                    />
+                  </svg>
+                </div>
                 <a class="reviews-text">5 отзывов</a>
               </div>
               <div class="price">
@@ -282,12 +655,67 @@
               <p class="availability">В наличие</p>
               <div class="basket-panel">
                 <button class="basket">В корзину</button>
+                <div class="basket-mark">
+                  <svg
+                    class="favorite-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="20"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="M0 20V6h4v14H0Zm7 0V0h4v20H7Zm7 0v-8h4v8h-4Z"
+                    />
+                  </svg>
+                  <svg
+                    class="heart-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="18"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="m10 18-1.45-1.295C3.4 12.125 0 9.093 0 5.395 0 2.364 2.42 0 5.5 0 7.24 0 8.91.795 10 2.04A6.062 6.062 0 0 1 14.5 0C17.58 0 20 2.364 20 5.395c0 3.698-3.4 6.73-8.55 11.31L10 18Z"
+                    />
+                  </svg>
+                </div>
+                <div class="basket-mark-mobile">
+                  <svg
+                    class="favorite-icon-mobile"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="M6.382 16V4.8H9.58V16H6.382Zm6.42 0V0H16v16h-3.198ZM0 16V9.6h3.198V16H0Z"
+                    />
+                  </svg>
+                  <svg
+                    class="heart-icon-mobile"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="none"
+                  >
+                    <path
+                      fill="#E0E0E0"
+                      d="m8 15.2-1.16-1.036C2.72 10.5 0 8.074 0 5.116 0 2.691 1.936.8 4.4.8A4.85 4.85 0 0 1 8 2.432 4.85 4.85 0 0 1 11.6.8C14.064.8 16 2.691 16 5.116c0 2.959-2.72 5.383-6.84 9.048L8 15.2Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="buy-click-mobile">
+                <a class="buy-click-mobile-text">Купить в 1 клик</a>
               </div>
             </li>
           </ul>
         </section>
       </main>
-      <footer class="page-footer">footer</footer>
+      <footer class="page-footer"></footer>
     </div>
     <script src="js/script.js"></script>
   </body>
